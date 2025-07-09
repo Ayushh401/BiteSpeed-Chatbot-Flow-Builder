@@ -4,7 +4,7 @@ A modern, intuitive drag-and-drop chatbot flow builder built with React, TypeScr
 
 # Live Demo
 
-**Hosted Application**: [Coming Soon - Will be updated after deployment]
+**Hosted Application**: https://bite-speed-chatbot-flow-builder.vercel.app/
 
 ## ✨ Features
 
@@ -64,7 +64,7 @@ src/
 - Node.js (version 16 or higher)
 - npm package manager
 
-### Installation
+# Installation
 
 1. **Clone the repository**
    ```bash
@@ -85,43 +85,37 @@ src/
 4. **Open in browser**
    Navigate to `http://localhost:5173`
 
-### Build for Production
+# Build for Production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## 📖 Usage Guide
+# Usage Guide
 
-### Creating a Flow
+# Creating a Flow
 1. **Add Nodes**: Drag components from the sidebar to the canvas
 2. **Connect Nodes**: Click and drag from the blue connection handles
 3. **Configure Nodes**: Click any node to open the settings panel
 4. **Save Progress**: Use the Save button to store your flow locally
 
-### Node Types
+#  Node Types
 - **Start Node**: Entry point for conversations (green)
 - **Message Node**: Bot responses and messages (blue)
 - **Input Node**: Collect user input with validation (orange)
 - **Condition Node**: Branch flows based on logic (purple)
 - **Action Node**: Trigger external actions (red)
 
-### Keyboard Shortcuts
-- `Delete`: Remove selected node
-- `Ctrl/Cmd + S`: Save flow
-- `Ctrl/Cmd + Z`: Undo (coming soon)
-- `Escape`: Deselect all nodes
 
-
-## 📊 Performance
+# Performance
 
 - **Bundle Size**: Optimized with Vite for minimal bundle size
 - **Runtime Performance**: Efficient React rendering with proper memoization
 - **Memory Usage**: Optimized state management for large flows
 - **Load Time**: Fast initial load with code splitting
 
-## 🤝 Contributing
+# Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -129,7 +123,7 @@ npm run preview
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-### Development Guidelines
+# Development Guidelines
 - Follow TypeScript best practices
 - Maintain component modularity
 - Add proper type definitions
