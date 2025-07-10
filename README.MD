@@ -13,7 +13,7 @@ A modern, intuitive drag-and-drop chatbot flow builder built with React, TypeScr
 - **Visual Flow Connections**: Connect nodes with beautiful bezier curves and arrow indicators
 - **Multiple Node Types**: 
   - Start nodes (conversation entry points)
-  - Message nodes (bot responses)
+  - Message nodes (responses)
   - Input nodes (user input collection)
   - Condition nodes (flow branching logic)
   - Action nodes (external actions/API calls)
